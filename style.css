@@ -25,7 +25,7 @@ body{
     overflow: hidden;
     width: 768px;
     max-width: 100%;
-    min-height: 480px;
+    min-height: 510px;
 }
 
 .container p{
@@ -36,12 +36,12 @@ body{
 }
 
 .container span{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .container a{
     color: #333;
-    font-size: 13px;
+    font-size: 13   px;
     text-decoration: none;
     margin: 15px 0 10px;
 }
@@ -78,12 +78,13 @@ body{
 .container input{
     background-color: #eee;
     border: none;
-    margin: 8px 0;
+    margin: 4px 0;
     padding: 10px 15px;
     font-size: 13px;
     border-radius: 8px;
     width: 100%;
     outline: none;
+    
 }
 
 .form-container{
@@ -207,4 +208,38 @@ body{
 
 .container.active .toggle-right{
     transform: translateX(200%);
+}
+
+
+
+
+/* Add this to your existing CSS or style.css file */
+.container form .name-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container form input[name="first_name"],
+.container form input[name="last_name"] {
+    width: 48%; /* Adjust as needed, leaving some space for margins */
+}
+
+
+/* Add this to your existing CSS or style.css file */
+.gender-options {
+    display: flex;
+    align-items: center;
+}
+
+.gender-options label {
+    margin-right: 10px;
+}
+
+.gender-radio {
+    display: flex;
+    align-items: center;
+}
+
+.gender-radio input[type="radio"] {
+    margin-right: 5px; /* Adjust as needed for spacing */
 }
