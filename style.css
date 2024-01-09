@@ -7,15 +7,24 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
-    background-color: #c9d6ff;
-    background:linear-gradient(to right, #e2e2e2, #c9d6ff);
+body {
+    background: url('tree.jpg') center center fixed;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+    margin: 0;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 .container{
     background-color: #fff;
@@ -250,3 +259,36 @@ body{
     text-decoration: underline;
 }
 
+
+
+.google-login-container {
+    margin-top: 10px;
+}
+
+#login-with-google {
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.google-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+span {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333333;
+}
+
+@media (max-width: 768px) {
+}
